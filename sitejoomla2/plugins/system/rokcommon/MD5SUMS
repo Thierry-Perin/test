@@ -1,0 +1,7 @@
+sql/uninstall.mysql.utf8.sql	da044b2b4c26178955bb3c9546107e05
+sql/install.mysql.utf8.sql	ce95bc5e2481ba06ebb7fb62e4afbace
+rokcommon.xml	071766bddb024f992177e24477eca6a1
+language/en-GB/en-GB.plg_system_rokcommon.ini	5faa9bd0d685ba6b48ea32601b0d9386
+rokcommon.php	eeff7b5b3ea4fb134e9e40bcffb068e7
+lib/RokCommon_Config_Form.php	fa694037a62aa89f2f5e98b8e6368c83
+MD5SUMS	d41d8cd98f00b204e9800998ecf8427e

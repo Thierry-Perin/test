@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+    <name>RokSprocket Module</name>
+    <creationDate>February 11, 2019</creationDate>
+    <author>RocketTheme, LLC</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>(C) 2005 - 2019 RocketTheme, LLC. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>2.1.26</version>
+    <description>RokSprocket makes it easy to display content in a dynamic, visual layout.</description>
+    <scriptfile>install.php</scriptfile>
+    <files>
+        <filename module="mod_roksprocket">mod_roksprocket.php</filename>
+        <filename>MD5SUMS</filename>
+        <folder>language</folder>
+        <folder>lib</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field default="onmodule" description="DESC.MOD_ROKSPROCKET_RUN_CONTENT_PLUGINS_DESC" label="MOD_ROKSPROCKET_RUN_CONTENT_PLUGINS_LABEL" name="run_content_plugins" type="list">
+                    <option value="onmodule">MOD_ROKSPROCKET_RUN_CONTENT_PLUGINS_ON_MODULE</option>
+                    <option value="oneach">MOD_ROKSPROCKET_RUN_CONTENT_PLUGINS_ON_EACH</option>
+                    <option value="disabled">JNO</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+        <server type="collection" priority="1" name="RocketTheme Update Directory">http://updates.rockettheme.com/joomla/updates.xml</server>
+    </updateservers>
+</extension>
